@@ -711,7 +711,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .modal-input {
@@ -803,7 +803,6 @@ img {
 }
 
 .checkbox-text-box {
-  display: block;
   width: 16px;
   height: 16px;
   border-radius: 2px;
@@ -816,7 +815,6 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;
 }
 
 .modal-checkbox:checked + .checkbox-text .checkbox-text-box {
