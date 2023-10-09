@@ -620,7 +620,6 @@ img {
   min-width: 165px;
   justify-content: center;
   align-items: center;
-
   letter-spacing: 0.04em;
   cursor: pointer;
 }
@@ -778,6 +777,7 @@ img {
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-color: #4d5ae5;
+  border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
 .modal-textarea::placeholder {
@@ -816,6 +816,7 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
 }
 
 .modal-checkbox:checked + .checkbox-text .checkbox-text-box {
