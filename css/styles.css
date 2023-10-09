@@ -606,6 +606,7 @@ img {
   padding-bottom: 8px;
   border-radius: 4px;
   background-color: #4d5ae5;
+  fill: #fff;
   color: #fff;
   font-size: 16px;
   font-weight: 500;
@@ -616,7 +617,8 @@ img {
   gap: 16px;
 }
 
-.footer-button-icon {
+.footer-form-button:hover.footer-button-icon
+  .footer-form-button:focus.footer-button-icon {
   fill: #ffffff;
 }
 /* ======  ====== */
