@@ -620,12 +620,12 @@ img {
   min-width: 165px;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .footer-form-button:hover {
   fill: #ffffff;
   letter-spacing: 0.04em;
-  cursor: pointer;
 }
 /* ======  ====== */
 
