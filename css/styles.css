@@ -788,6 +788,9 @@ img {
   letter-spacing: 0.04em;
 }
 
+.modal-textarea:focus .modal-checkbox {
+  border-color: #4d5ae5;
+}
 .checkbox-text {
   color: #8e8f99;
   font-size: 12px;
