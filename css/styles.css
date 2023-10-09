@@ -566,7 +566,7 @@ img {
   color: #fff;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
   display: flex;
@@ -620,12 +620,17 @@ img {
   min-width: 165px;
   justify-content: center;
   align-items: center;
+
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 
 .footer-form-button:hover {
   fill: #ffffff;
-  letter-spacing: 0.04em;
+}
+
+.footer-button-icon {
+  margin-left: 16px;
 }
 /* ======  ====== */
 
