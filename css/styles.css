@@ -690,22 +690,19 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-button-icon {
-  fill: #2e2f42;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-button-icon:hover {
-  fill: #ffffff;
-}
-.modal-button:hover {
+.modal-button:hover,
+.modal-button:focus {
   border: none;
   background-color: #404bbf;
 }
-.modal-button:hover + .modal-button-icon {
-  fill: #ffffff;
+.modal-button-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-button:hover .modal-button-icon,
+.modal-button:focus .modal-button-icon {
+  fill: #ffffff;
+}
 .hero-modal-title {
   color: #2e2f42;
   text-align: center;
@@ -714,8 +711,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  margin-bottom: 16px;
-  padding-top: 48px;
+  margin-bottom: 24px;
 }
 
 .modal-input {
@@ -760,6 +756,10 @@ img {
 
 .modal-field {
   margin-bottom: 16px;
+}
+
+.modal-field :last-child {
+  margin-bottom: 8px;
 }
 
 .modal-textarea {
