@@ -559,7 +559,8 @@ img {
 }
 
 .footer-form {
-  /* display: flex; */
+  display: flex;
+  gap: 24px;
 }
 .footer-form-title {
   color: #fff;
@@ -571,10 +572,6 @@ img {
   display: flex;
 }
 
-.footer-form-wrap {
-  display: flex;
-  gap: 24px;
-}
 .footer-form-input {
   width: 264px;
   height: 40px;
