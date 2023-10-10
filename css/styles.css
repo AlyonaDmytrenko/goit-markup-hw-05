@@ -754,12 +754,11 @@ img {
   margin-bottom: 4px;
 }
 
-.modal-field {
-  margin-bottom: 16px;
-}
-
-.modal-field :last-child {
+.modal-field-name {
   margin-bottom: 8px;
+}
+.modal-field-check {
+  margin-bottom: 24px;
 }
 
 .modal-textarea {
@@ -788,9 +787,6 @@ img {
   letter-spacing: 0.04em;
 }
 
-.modal-textarea:focus .modal-checkbox {
-  border-color: #4d5ae5;
-}
 .checkbox-text {
   color: #8e8f99;
   font-size: 12px;
@@ -806,12 +802,12 @@ img {
 }
 
 .checkbox-text-box {
+  display: inline-flex;
   width: 16px;
   height: 16px;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 12px;
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
