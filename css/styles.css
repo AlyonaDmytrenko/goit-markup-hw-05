@@ -792,6 +792,7 @@ img {
 
 .checkbox-text a {
   color: #4d5ae5;
+  display: block;
 }
 
 .checkbox-text-box {
