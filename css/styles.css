@@ -784,9 +784,12 @@ img {
   letter-spacing: 0.04em;
 }
 
-/* .modal-field-check {
+.modal-field-comment {
+  margin-bottom: 16px;
+}
+.modal-field-check {
   margin-bottom: 24px;
-} */
+}
 .checkbox-text {
   color: #8e8f99;
   font-size: 12px;
