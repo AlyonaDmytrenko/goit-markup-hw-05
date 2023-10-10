@@ -703,6 +703,10 @@ img {
 .modal-button:focus .modal-button-icon {
   fill: #ffffff;
 }
+
+.modal-field-name {
+  margin-bottom: 8px;
+}
 .hero-modal-title {
   color: #2e2f42;
   text-align: center;
