@@ -786,13 +786,11 @@ img {
   font-weight: 400;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  display: flex;
   align-items: center;
 }
 
 .checkbox-text a {
   color: #4d5ae5;
-  display: flex;
 }
 
 .checkbox-text-box {
