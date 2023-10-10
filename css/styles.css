@@ -714,6 +714,9 @@ img {
   text-align: center;
   margin-bottom: 16px;
 }
+.modal-field {
+  margin-bottom: 8px;
+}
 
 .modal-input {
   width: 100%;
